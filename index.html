@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>Travel Inn</title>
+</head>
+<body background="background.jpg">
+<div class="container"><h1>Travel Inn</h1></div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+            <div class="panel with-nav-tabs panel-info">
+                <div class="panel-heading">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1info" data-toggle="tab">FLIGHTS</a></li>
+                            <li><a href="#tab2info" data-toggle="tab">HOTELS</a></li>
+                            
+                        </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1info">
+							<div id="booking" class="section">
+								<div class="section-center">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="booking-form">
+													<form>
+														<div class="form-group">
+															<div class="form-checkbox">
+																<label for="roundtrip">
+																<input type="radio" id="roundtrip" name="flight-type">
+																<span></span>Roundtrip
+																</label>
+																<label for="one-way">
+																<input type="radio" id="one-way" name="flight-type">
+																<span></span>One way
+																</label>
+																<label for="multi-city">
+																	<input type="radio" id="multi-city" name="flight-type">
+																	<span></span>Multi-City
+																</label>
+															</div>
+														</div>
+												<div class="row">
+													<div class="col-md-6">
+														<div class="form-group">
+															<span class="form-label">Flying from</span>
+															<input class="form-control" type="text" placeholder="City or airport">
+														</div>
+													</div>
+													<div class="col-md-6">
+													<div class="form-group">
+														<span class="form-label">Flyning to</span>
+														<input class="form-control" type="text" placeholder="City or airport">
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group">
+														<span class="form-label">Departing</span>
+														<input class="form-control" type="date" required>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<span class="form-label">Returning</span>
+														<input class="form-control" type="date" required>
+												</div>
+										</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group">
+											<span class="form-label">Adults (18+)</span>
+											<select class="form-control">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<span class="form-label">Children (0-17)</span>
+											<select class="form-control">
+												<option>0</option>
+												<option>1</option>
+												<option>2</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<span class="form-label">Travel class</span>
+											<select class="form-control">
+												<option>Economy class</option>
+												<option>Business class</option>
+												<option>First class</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+								</div>
+								<div class="form-btn">
+									<button class="submit-btn">Show flights</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+						
+						
+						</div>
+                        <div class="tab-pane fade" id="tab2info">
+						
+						<div id="booking" class="section">
+								<div class="section-center">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-4">
+											
+												<div class="booking-form">
+													<form>
+														<div class="form-group">
+														<h3>Find Your Perfect Hotel</h3>
+															<div class="form-group">
+															<span class="form-label">Where Are You Staying?</span>
+															<input class="form-control" type="text" placeholder="City or hotel">
+														</div>
+														</div>
+												
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group">
+														<span class="form-label">Check In</span>
+														<input class="form-control" type="date" required>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<span class="form-label">Check Out</span>
+														<input class="form-control" type="date" required>
+												</div>
+										</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group">
+											<span class="form-label">Guests</span>
+											<select class="form-control">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>8</option>
+												<option>9</option>
+												<option>10</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<span class="form-label">Rooms</span>
+											<select class="form-control">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											
+										</div>
+									</div>
+								</div>
+								<div class="form-btn">
+									<button class="submit-btn">Show Hotels</button>
+								</div>
+							</form>
+						
+						
+						</div>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+  </div>
+  </div>
+  </body>
+  </html>
+  
